@@ -1,0 +1,13 @@
+<launch>
+
+<node pkg="ros_falcon" name="falcon_node" type="falcon_node" output="screen" />
+
+<node pkg="falcon_teleop_twist_ros" name="falcon_teleop_twist_ros_node" type="falcon_teleop_twist_ros" output="screen" />
+
+<node pkg="falcon_teleop_twist_ros" name="falcon_teleop_force_node" type="falcon_teleop_force" output="screen" />
+
+
+
+
+
+</launch>
